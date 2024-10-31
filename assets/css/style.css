@@ -1,0 +1,83 @@
+/*wpsdb styles*/
+div#wpsdb-wrap {
+    background: #fff;
+}
+#wpsdb-header{
+    text-align:center;
+}
+#wpsdb-content {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px #c4c4c4;
+    padding: 20px;
+}
+
+#circle_progress{
+    max-width:600px;
+    margin:0 auto 
+}
+#wpsdb-content table{
+    width:100%; 
+}
+#wpsdb-content table th, #wpsdb-content table td {
+    padding: 10px;
+    text-align: left;
+    background: #0071a112;
+}
+#wpsdb-content table td p {
+    line-height: 0;
+    font-weight: 600;
+}
+#sacn_now{
+    padding:10px;
+    margin-top:10px;
+    text-align:center;
+}
+#sacn_now button{
+    font-weight:bold;
+}
+#sacn_now .btn {
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    background: #91C9FF;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    position:relative;
+  }
+  
+
+#sacn_now   .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+  
+#sacn_now .btn:hover svg {
+    stroke-dashoffset: -480;
+}
+  
+#sacn_now .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.ldBar-label {
+    color: #0071a1;
+    font-family: 'varela round';
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+
+#wpsdb-content-history{
+    max-width:800px;
+    margin:0 auto ;
+    box-shadow: 5px 5px 5px 5px #c4c4c4;
+    padding: 20px;
+}
+
+.wpsdb_menu_icon{
+    background:url('../assets/icon.icon.svg');
+}
